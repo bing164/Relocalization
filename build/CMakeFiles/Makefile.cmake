@@ -26,7 +26,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/bing/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
   "/home/bing/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux.cmake"
   "/home/bing/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
-  "/home/bing/yd/slam-test/RePlace/CMakeLists.txt"
+  "/home/bing/yd/slam-test/Relocalization/CMakeLists.txt"
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
@@ -49,6 +49,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/RePlace.dir/DependInfo.cmake"
+  "CMakeFiles/Relocalization.dir/DependInfo.cmake"
   "CMakeFiles/run_demo.dir/DependInfo.cmake"
   )

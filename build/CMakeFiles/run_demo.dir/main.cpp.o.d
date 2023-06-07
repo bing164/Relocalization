@@ -1,6 +1,6 @@
 CMakeFiles/run_demo.dir/main.cpp.o: \
- /home/bing/yd/slam-test/RePlace/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/9/iostream \
+ /home/bing/yd/slam-test/Relocalization/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -515,53 +515,53 @@ CMakeFiles/run_demo.dir/main.cpp.o: \
  /usr/include/opencv4/opencv2/viz/widgets.hpp \
  /usr/include/opencv4/opencv2/viz/viz3d.hpp \
  /usr/include/opencv4/opencv2/viz/vizcore.hpp \
- /home/bing/yd/slam-test/RePlace/include/ORBextractor.h \
- /home/bing/yd/slam-test/RePlace/include/ORBmatcher.h \
- /home/bing/yd/slam-test/RePlace/include/Frame.h \
- /home/bing/yd/slam-test/RePlace/include/ORBextractor.h \
- /home/bing/yd/slam-test/RePlace/include/MapPoint.h \
- /home/bing/yd/slam-test/RePlace/include/Optimizer.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/block_solver.h \
+ /home/bing/yd/slam-test/Relocalization/include/ORBextractor.h \
+ /home/bing/yd/slam-test/Relocalization/include/ORBmatcher.h \
+ /home/bing/yd/slam-test/Relocalization/include/Frame.h \
+ /home/bing/yd/slam-test/Relocalization/include/ORBextractor.h \
+ /home/bing/yd/slam-test/Relocalization/include/MapPoint.h \
+ /home/bing/yd/slam-test/Relocalization/include/Optimizer.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/block_solver.h \
  /usr/include/eigen3/Eigen/Core \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/solver.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/hyper_graph.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/solver.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/hyper_graph.h \
  /usr/include/c++/9/bitset /usr/include/c++/9/tr1/unordered_map \
  /usr/include/c++/9/tr1/type_traits \
  /usr/include/c++/9/tr1/functional_hash.h \
  /usr/include/c++/9/tr1/hashtable.h \
  /usr/include/c++/9/tr1/hashtable_policy.h \
  /usr/include/c++/9/tr1/unordered_map.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/batch_stats.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../../config.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/matrix_operations.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/matrix_structure.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/linear_solver.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix_diagonal.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/batch_stats.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../../config.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/matrix_operations.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/matrix_structure.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/linear_solver.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix_diagonal.h \
  /usr/include/eigen3/Eigen/StdVector \
  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/openmp_mutex.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/block_solver.hpp \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/sparse_optimizer.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../stuff/macros.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/optimizable_graph.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/parameter.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/parameter_container.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/jacobian_workspace.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/openmp_mutex.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/block_solver.hpp \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/sparse_optimizer.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../stuff/macros.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/optimizable_graph.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/parameter.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/parameter_container.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/jacobian_workspace.h \
  /usr/include/eigen3/Eigen/LU \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../stuff/timeutil.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../stuff/timeutil.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../stuff/misc.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../stuff/macros.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/optimizable_graph.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/creators.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/hyper_graph.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/../stuff/macros.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../stuff/misc.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../stuff/macros.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/optimizable_graph.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/creators.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/hyper_graph.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/../stuff/macros.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Geometry \
  /usr/include/eigen3/Eigen/Eigenvalues \
  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
@@ -582,29 +582,29 @@ CMakeFiles/run_demo.dir/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /usr/include/eigen3/Eigen/Cholesky /usr/include/c++/9/stack \
  /usr/include/c++/9/bits/stl_stack.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.hpp \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_edge.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/robust_kernel.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.hpp \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_edge.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/robust_kernel.h \
  /usr/include/c++/9/tr1/memory /usr/include/c++/9/tr1/shared_ptr.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/../../config.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.hpp \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_unary_edge.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/../core/base_unary_edge.hpp \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/se3_ops.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/se3_ops.hpp \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/se3quat.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/types_sba.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/sim3.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/optimization_algorithm.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../stuff/property.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/../stuff/string_tools.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/optimization_algorithm_gauss_newton.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/solvers/linear_solver_eigen.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/../../config.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.hpp \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_unary_edge.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/../core/base_unary_edge.hpp \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/se3_ops.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/se3_ops.hpp \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/se3quat.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/types_sba.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/sim3.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/sparse_block_matrix.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/optimization_algorithm.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../stuff/property.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/../stuff/string_tools.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/optimization_algorithm_gauss_newton.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/solvers/linear_solver_eigen.h \
  /usr/include/eigen3/Eigen/Sparse /usr/include/eigen3/Eigen/SparseCore \
  /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
@@ -680,18 +680,18 @@ CMakeFiles/run_demo.dir/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
  /usr/include/eigen3/Eigen/SparseCholesky \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/solvers/../core/linear_solver.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/solvers/../core/batch_stats.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/solvers/../stuff/timeutil.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/solvers/../core/eigen_types.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/robust_kernel_impl.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/core/robust_kernel.h \
- /home/bing/yd/slam-test/RePlace/include/../Thirdparty/g2o/g2o/solvers/linear_solver_dense.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/solvers/../core/linear_solver.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/solvers/../core/batch_stats.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/solvers/../stuff/timeutil.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/solvers/../core/eigen_types.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/robust_kernel_impl.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/core/robust_kernel.h \
+ /home/bing/yd/slam-test/Relocalization/include/../Thirdparty/g2o/g2o/solvers/linear_solver_dense.h \
  /usr/include/eigen3/Eigen/Core \
- /home/bing/yd/slam-test/RePlace/include/Converter.h \
- /home/bing/yd/slam-test/RePlace/include/Optimizer.h \
- /home/bing/yd/slam-test/RePlace/include/Frame.h \
+ /home/bing/yd/slam-test/Relocalization/include/Converter.h \
+ /home/bing/yd/slam-test/Relocalization/include/Optimizer.h \
+ /home/bing/yd/slam-test/Relocalization/include/Frame.h \
  /usr/include/c++/9/experimental/filesystem \
  /usr/include/c++/9/experimental/bits/fs_fwd.h \
  /usr/include/c++/9/experimental/bits/fs_path.h \
@@ -699,4 +699,4 @@ CMakeFiles/run_demo.dir/main.cpp.o: \
  /usr/include/c++/9/experimental/bits/lfts_config.h \
  /usr/include/c++/9/experimental/bits/string_view.tcc \
  /usr/include/c++/9/experimental/bits/fs_dir.h \
- /usr/include/c++/9/experimental/bits/fs_ops.h
+ /usr/include/c++/9/experimental/bits/fs_ops.h /usr/include/c++/9/thread

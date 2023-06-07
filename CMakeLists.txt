@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(RePlace)
+project(Relocalization)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE "Release")
@@ -38,6 +38,7 @@ target_link_libraries( run_demo
         ${OpenCV_LIBS}
         ${DBoW3_LIBS}
         ${PROJECT_NAME}
-        ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so)
+        ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so
+        pthread)
 
 

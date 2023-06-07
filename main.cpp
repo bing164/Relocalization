@@ -7,6 +7,7 @@
 #include "Optimizer.h"
 #include "Frame.h"
 #include "experimental/filesystem"
+#include "thread"
 
 std::vector<std::shared_ptr<Frame>> Vec_BOWFrame;
 
@@ -60,7 +61,7 @@ int main(int argc, char** argv) {
     std::string img_path = argv[2];
     LoadImages(img_path, db);
 
-
+    auto t1 = clock();
     cv::Mat im = cv::imread(argv[3]);
     DBoW3::QueryResults ret;
     std::shared_ptr<Frame> cur = std::make_shared<Frame>(im, -1, K);
@@ -68,6 +69,38 @@ int main(int argc, char** argv) {
     db.query(cur->m_des, ret, 5);
     std::cout << "searching for image "  << cur->FrameId <<  " returns "  << ret << std::endl << std::endl;
     std::cout << "ret = " << ret.at(1).Id + 1 << std::endl;
+
+
+
+    // 使用多线程实现ORB特征匹配
+//    int num_theards = ret.size();
+//    std::cout << "theards = " << num_theards << std::endl;
+//    std::vector<std::thread> threads(num_theards);
+//    std::mutex matches_mutex, matches_mutex2;
+//    ORBmatcher matcher(0.9, true);
+//    std::vector<std::pair<int, int>> vec_match;
+//    vec_match.reserve(num_theards);
+//    for (int i = 0; i < num_theards; i++) {
+//        threads[i] = std::thread([&,i] {
+//            std::shared_ptr<Frame> cur_copy;
+//            std::lock_guard<std::mutex> lock(matches_mutex);
+//            {
+////                Frame cur_copy = Frame(cur);
+//                cur_copy = std::make_shared<Frame>(cur);
+//            }
+//            int matches = matcher.SearchForReplace(img_path, Vec_BOWFrame[ret.at(i).Id], cur_copy);
+//            std::cout << "matches = " << matches << std::endl;
+//            std::lock_guard<std::mutex> lock1(matches_mutex2);
+//            {
+//                vec_match.push_back(std::make_pair(matches,ret.at(i).Id));
+//            }
+//        });
+//    }
+//    for (auto &thread : threads) {
+//        thread.join();
+//    }
+
+
 
     ORBmatcher matcher(0.9, true);
     std::vector<std::pair<int, int>> vec_match;
@@ -109,6 +142,8 @@ int main(int argc, char** argv) {
     std::cout << "t_pitch = " << asin(-t_Tcw.at<double>(2,0)) * mu << " t_roll = " << atan2(t_Tcw.at<double>(2,1),t_Tcw.at<double>(2,2)) * mu
               << " t_yaw = " << atan2(t_Tcw.at<double>(1,0),t_Tcw.at<double>(0,0)) * mu << std::endl;
 
+    auto t2 = clock();
+    std::cout << "time = " << double(t2 - t1) / CLOCKS_PER_SEC << std::endl;
     return 0;
 
 }

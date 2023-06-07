@@ -54,16 +54,16 @@ RM = /home/bing/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bing/yd/slam-test/RePlace
+CMAKE_SOURCE_DIR = /home/bing/yd/slam-test/Relocalization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bing/yd/slam-test/RePlace/build
+CMAKE_BINARY_DIR = /home/bing/yd/slam-test/Relocalization/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/RePlace.dir/all
+all: CMakeFiles/Relocalization.dir/all
 all: CMakeFiles/run_demo.dir/all
 .PHONY : all
 
@@ -72,51 +72,51 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/RePlace.dir/clean
+clean: CMakeFiles/Relocalization.dir/clean
 clean: CMakeFiles/run_demo.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/RePlace.dir
+# Target rules for target CMakeFiles/Relocalization.dir
 
 # All Build rule for target.
-CMakeFiles/RePlace.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bing/yd/slam-test/RePlace/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target RePlace"
-.PHONY : CMakeFiles/RePlace.dir/all
+CMakeFiles/Relocalization.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bing/yd/slam-test/Relocalization/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Relocalization"
+.PHONY : CMakeFiles/Relocalization.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/RePlace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/RePlace/build/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RePlace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/RePlace/build/CMakeFiles 0
-.PHONY : CMakeFiles/RePlace.dir/rule
+CMakeFiles/Relocalization.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/Relocalization/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Relocalization.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/Relocalization/build/CMakeFiles 0
+.PHONY : CMakeFiles/Relocalization.dir/rule
 
 # Convenience name for target.
-RePlace: CMakeFiles/RePlace.dir/rule
-.PHONY : RePlace
+Relocalization: CMakeFiles/Relocalization.dir/rule
+.PHONY : Relocalization
 
 # clean rule for target.
-CMakeFiles/RePlace.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/clean
-.PHONY : CMakeFiles/RePlace.dir/clean
+CMakeFiles/Relocalization.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/clean
+.PHONY : CMakeFiles/Relocalization.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/run_demo.dir
 
 # All Build rule for target.
-CMakeFiles/run_demo.dir/all: CMakeFiles/RePlace.dir/all
+CMakeFiles/run_demo.dir/all: CMakeFiles/Relocalization.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_demo.dir/build.make CMakeFiles/run_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_demo.dir/build.make CMakeFiles/run_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bing/yd/slam-test/RePlace/build/CMakeFiles --progress-num=8,9 "Built target run_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bing/yd/slam-test/Relocalization/build/CMakeFiles --progress-num=8,9 "Built target run_demo"
 .PHONY : CMakeFiles/run_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/RePlace/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/Relocalization/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/RePlace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/Relocalization/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_demo.dir/rule
 
 # Convenience name for target.

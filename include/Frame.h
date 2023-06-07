@@ -18,6 +18,8 @@ class Optimizer;
 class Frame {
 public:
     Frame() {}
+
+    Frame(std::shared_ptr<Frame> cur);
     // 用于加载BOW时使用
     Frame(const cv::Mat& colorImgs, const cv::Mat& depthImgs, const Eigen::Isometry3d pose, int i, cv::Mat K);
     // 重定位时读入帧

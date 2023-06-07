@@ -4,6 +4,12 @@
 
 #include "Frame.h"
 
+Frame::Frame(std::shared_ptr<Frame> cur) :
+m_colorImgs(cur->m_colorImgs.clone()), m_keypoints(cur->m_keypoints), m_des(cur->m_des.clone())
+{
+
+}
+
 Frame::Frame(const cv::Mat &colorImgs, const cv::Mat &depthImgs, const Eigen::Isometry3d pose, int i, cv::Mat K)
     : m_colorImgs(colorImgs), m_depthImgs(depthImgs), m_pose(pose), m_K(K) {
     orb_extractor->ExtractORB(colorImgs, m_keypoints, m_des);
@@ -36,7 +42,7 @@ inline cv::Point2d pixel2cam(const cv::Point2d &p, const cv::Mat &K) {
 //}
 
 std::vector<cv::Point3d> Frame::GetMapPoints(std::shared_ptr<Frame> Bow_F) {
-    std::cout << "m_orbmatches1111 = " << Bow_F->m_orbmatches.size() << std::endl;
+//    std::cout << "m_orbmatches1111 = " << Bow_F->m_orbmatches.size() << std::endl;
     for (auto m : Bow_F->m_orbmatches) {
         unsigned int d = Bow_F->m_depthImgs.ptr<unsigned short>(int(Bow_F->m_keypoints[m.queryIdx].pt.y))[int(Bow_F->m_keypoints[m.queryIdx].pt.x)];
 //        std::cout << "d = " << d << std::endl;

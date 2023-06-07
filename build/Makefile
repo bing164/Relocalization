@@ -57,10 +57,10 @@ RM = /home/bing/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bing/yd/slam-test/RePlace
+CMAKE_SOURCE_DIR = /home/bing/yd/slam-test/Relocalization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bing/yd/slam-test/RePlace/build
+CMAKE_BINARY_DIR = /home/bing/yd/slam-test/Relocalization/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/RePlace/build/CMakeFiles /home/bing/yd/slam-test/RePlace/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/Relocalization/build/CMakeFiles /home/bing/yd/slam-test/Relocalization/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/RePlace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bing/yd/slam-test/Relocalization/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RePlace
+# Target rules for targets named Relocalization
 
 # Build rule for target.
-RePlace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RePlace
-.PHONY : RePlace
+Relocalization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Relocalization
+.PHONY : Relocalization
 
 # fast build rule for target.
-RePlace/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/build
-.PHONY : RePlace/fast
+Relocalization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/build
+.PHONY : Relocalization/fast
 
 #=============================================================================
 # Target rules for targets named run_demo
@@ -171,7 +171,7 @@ src/Converter.o: src/Converter.cpp.o
 
 # target to build an object file
 src/Converter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Converter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Converter.cpp.o
 .PHONY : src/Converter.cpp.o
 
 src/Converter.i: src/Converter.cpp.i
@@ -179,7 +179,7 @@ src/Converter.i: src/Converter.cpp.i
 
 # target to preprocess a source file
 src/Converter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Converter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Converter.cpp.i
 .PHONY : src/Converter.cpp.i
 
 src/Converter.s: src/Converter.cpp.s
@@ -187,7 +187,7 @@ src/Converter.s: src/Converter.cpp.s
 
 # target to generate assembly for a file
 src/Converter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Converter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Converter.cpp.s
 .PHONY : src/Converter.cpp.s
 
 src/Frame.o: src/Frame.cpp.o
@@ -195,7 +195,7 @@ src/Frame.o: src/Frame.cpp.o
 
 # target to build an object file
 src/Frame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Frame.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Frame.cpp.o
 .PHONY : src/Frame.cpp.o
 
 src/Frame.i: src/Frame.cpp.i
@@ -203,7 +203,7 @@ src/Frame.i: src/Frame.cpp.i
 
 # target to preprocess a source file
 src/Frame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Frame.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Frame.cpp.i
 .PHONY : src/Frame.cpp.i
 
 src/Frame.s: src/Frame.cpp.s
@@ -211,7 +211,7 @@ src/Frame.s: src/Frame.cpp.s
 
 # target to generate assembly for a file
 src/Frame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Frame.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Frame.cpp.s
 .PHONY : src/Frame.cpp.s
 
 src/MapPoint.o: src/MapPoint.cpp.o
@@ -219,7 +219,7 @@ src/MapPoint.o: src/MapPoint.cpp.o
 
 # target to build an object file
 src/MapPoint.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/MapPoint.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/MapPoint.cpp.o
 .PHONY : src/MapPoint.cpp.o
 
 src/MapPoint.i: src/MapPoint.cpp.i
@@ -227,7 +227,7 @@ src/MapPoint.i: src/MapPoint.cpp.i
 
 # target to preprocess a source file
 src/MapPoint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/MapPoint.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/MapPoint.cpp.i
 .PHONY : src/MapPoint.cpp.i
 
 src/MapPoint.s: src/MapPoint.cpp.s
@@ -235,7 +235,7 @@ src/MapPoint.s: src/MapPoint.cpp.s
 
 # target to generate assembly for a file
 src/MapPoint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/MapPoint.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/MapPoint.cpp.s
 .PHONY : src/MapPoint.cpp.s
 
 src/ORBextractor.o: src/ORBextractor.cpp.o
@@ -243,7 +243,7 @@ src/ORBextractor.o: src/ORBextractor.cpp.o
 
 # target to build an object file
 src/ORBextractor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/ORBextractor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/ORBextractor.cpp.o
 .PHONY : src/ORBextractor.cpp.o
 
 src/ORBextractor.i: src/ORBextractor.cpp.i
@@ -251,7 +251,7 @@ src/ORBextractor.i: src/ORBextractor.cpp.i
 
 # target to preprocess a source file
 src/ORBextractor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/ORBextractor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/ORBextractor.cpp.i
 .PHONY : src/ORBextractor.cpp.i
 
 src/ORBextractor.s: src/ORBextractor.cpp.s
@@ -259,7 +259,7 @@ src/ORBextractor.s: src/ORBextractor.cpp.s
 
 # target to generate assembly for a file
 src/ORBextractor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/ORBextractor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/ORBextractor.cpp.s
 .PHONY : src/ORBextractor.cpp.s
 
 src/ORBmatcher.o: src/ORBmatcher.cpp.o
@@ -267,7 +267,7 @@ src/ORBmatcher.o: src/ORBmatcher.cpp.o
 
 # target to build an object file
 src/ORBmatcher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/ORBmatcher.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/ORBmatcher.cpp.o
 .PHONY : src/ORBmatcher.cpp.o
 
 src/ORBmatcher.i: src/ORBmatcher.cpp.i
@@ -275,7 +275,7 @@ src/ORBmatcher.i: src/ORBmatcher.cpp.i
 
 # target to preprocess a source file
 src/ORBmatcher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/ORBmatcher.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/ORBmatcher.cpp.i
 .PHONY : src/ORBmatcher.cpp.i
 
 src/ORBmatcher.s: src/ORBmatcher.cpp.s
@@ -283,7 +283,7 @@ src/ORBmatcher.s: src/ORBmatcher.cpp.s
 
 # target to generate assembly for a file
 src/ORBmatcher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/ORBmatcher.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/ORBmatcher.cpp.s
 .PHONY : src/ORBmatcher.cpp.s
 
 src/Optimizer.o: src/Optimizer.cpp.o
@@ -291,7 +291,7 @@ src/Optimizer.o: src/Optimizer.cpp.o
 
 # target to build an object file
 src/Optimizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Optimizer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Optimizer.cpp.o
 .PHONY : src/Optimizer.cpp.o
 
 src/Optimizer.i: src/Optimizer.cpp.i
@@ -299,7 +299,7 @@ src/Optimizer.i: src/Optimizer.cpp.i
 
 # target to preprocess a source file
 src/Optimizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Optimizer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Optimizer.cpp.i
 .PHONY : src/Optimizer.cpp.i
 
 src/Optimizer.s: src/Optimizer.cpp.s
@@ -307,7 +307,7 @@ src/Optimizer.s: src/Optimizer.cpp.s
 
 # target to generate assembly for a file
 src/Optimizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RePlace.dir/build.make CMakeFiles/RePlace.dir/src/Optimizer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Relocalization.dir/build.make CMakeFiles/Relocalization.dir/src/Optimizer.cpp.s
 .PHONY : src/Optimizer.cpp.s
 
 # Help Target
@@ -318,7 +318,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... RePlace"
+	@echo "... Relocalization"
 	@echo "... run_demo"
 	@echo "... main.o"
 	@echo "... main.i"
