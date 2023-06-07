@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libRePlace.so -o libRePlace.so CMakeFiles/RePlace.dir/src/ORBextractor.cpp.o CMakeFiles/RePlace.dir/src/Frame.cpp.o CMakeFiles/RePlace.dir/src/ORBmatcher.cpp.o CMakeFiles/RePlace.dir/src/MapPoint.cpp.o CMakeFiles/RePlace.dir/src/Optimizer.cpp.o CMakeFiles/RePlace.dir/src/Converter.cpp.o 
